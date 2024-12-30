@@ -6,8 +6,6 @@ import io
 import base64
 
 # Load Google AI Gemini API key
-#GOOGLE_API_KEY = "AIzaSyDxF8JJJWGA-oml8qxdEhkvDRfQisNdsOs"  #AIzaSyDxF8JJJWGA-oml8qxdEhkvDRfQisNdsOs
-#GOOGLE_API_KEY = 
 with open('api_key.txt', 'r') as f:
       GOOGLE_API_KEY = f.read().strip()
 if GOOGLE_API_KEY is None:
